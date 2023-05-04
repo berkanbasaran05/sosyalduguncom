@@ -307,6 +307,8 @@
 
     & img {
         transform: translateX(45px);
+        margin-left: 250px;
+        margin-top: -100px;
         
 
         @media #{$xxl} {
@@ -317,19 +319,28 @@
         @media #{$xl} {
             transform: translateX(-40px);
             max-width: 120%;
-            margin-left: 250px;
+            
+        }
+        @media #{$md} {
+            transform: translateX(-40px);
+            max-width: 120%;
+            margin-top: 50px;
+            
         }
 
         @media #{$lg} {
             transform: translateX(-15px);
             max-width: 115%;
             margin-top: -80px;
+            margin-left: 100px;
+            
         }
 
         @media #{$xs} {
             transform: translateX(0);
            margin-left: 30px;
             max-width: 100%;
+            margin: 50px    ;
         }
     }
 }
