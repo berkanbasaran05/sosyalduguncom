@@ -18,7 +18,7 @@ const Header = () => {
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-logo">
                   <Link href="/">
-                    <a><img src="/assets/img/logo/logosd.png" alt="" /></a>
+                    <a><img src="/assets/img/logo/1.png" alt="" /></a>
                   </Link>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const Header = () => {
       </header>
 
       {/* <!-- mobile-menu-area --> */}
-      <MobileMenu logo={"logosd.png"} />
+      <MobileMenu logo={"1.png"} />
       {/* <!-- mobile-menu-area-end --> */}
 
       {/* off canvas start */}

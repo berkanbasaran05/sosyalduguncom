@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
+import { FaVideo, FaCog, FaCamera, FaUsers, FaFileVideo, FaVideoSlash } from 'react-icons/fa';
+
 
 const hero_contents = {
   title: 'Yeni Nesil Canlı Yayın ve Etkinlik Yönetim Sistemi',
-  text: <>Sosyal Düğün, tek tıkla mükemmel düğün organizasyonlarınızı hayata geçiriyor. Kapsamlı özellikleri, kamera desteği ve kullanım kolaylığı ile düğünlerinizin unutulmaz anılarına ortak olmanızı sağlıyor. Düğün stresinden kurtulup, unutulmaz bir düğüne imza atmak için Sosyal Düğün&#39;ü keşfedin.</>,
-  btn_text: 'DahaFazlaBilgiEdinin',
-  btn_text_2: 'BizimleÇalışın',
+  text: <>Sosyal Düğün, nişan,düğün,sünnet,nikah ve davet etkinliklerinizi her yerden kolay bir şekilde yönetmenizi ve müşterilerinize düğün esnasında canlı yayın hizmeti sunarak salonunuza değer katar. <br></br>Sosyal Düğün&#39;ü keşfedin.</>,
+  btn_text: 'Daha Fazla Bilgi Edinin',
+  btn_text_2: 'Bizimle Çalışın',
   social_links: [
     { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
     { id: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
@@ -32,8 +34,8 @@ const HeroArea = () => {
               <div className="tp-hero-content">
                 <div className="tp-hero-text">
                   <h2 className="tp-hero-title wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">
-                    {title}
-                  </h2>
+                    {title} 
+                  </h2> 
                   <p className="wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".8s">{text}</p>
                   <div className="tp-hero-button mb-140 wow tpfadeUp" data-wow-duration=".7s" data-wow-delay="1s">
                     <Link href="/nasilcalisir">

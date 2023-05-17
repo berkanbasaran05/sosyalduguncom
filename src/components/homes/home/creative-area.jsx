@@ -10,7 +10,7 @@ const creative_contents = {
     { img: '/assets/img/creative/creative-hand.png' },
     { img_2: '-2', img: '/assets/img/creative/creative-circle-img.png' },
   ],
-  title: <>Sonsuz Anılar İçin Devrim Yaratan: Düğün Salonlarına Özel <b>Kameralı Canlı Yayın İzleme </b> ve Otomasyon Sistemi</>,
+  title: <>Teknolojiyle Harmanlanan Düğün Deneyimi: Etkinlik Yönetimi ve Canlı Yayın Hizmetiyle Öne Çıkın; <b>Kameralı Canlı Yayın İzleme </b> ve Otomasyon Sistemi</>,
   video_id: 'PO_fBTkoznc',
   video_title: 'Hemen Şimdi Etkinliği İzle',
   creative_box: [
@@ -18,11 +18,11 @@ const creative_contents = {
     box_text: 'Müşteri Memnuniyeti' },
     {
       id: 2, duration: '.5s', delay: '.8s', color: 'tp-creative-blue', icon: 'flaticon-clipboard',
-      box_title: '100+', box_text: 'Anlaşılan Salon'
+      box_title: '30+', box_text: 'Anlaşılan Salon'
     },
     {
       id: 3, duration: '.7s', delay: '1s', color: 'tp-creative-pink', icon: 'flaticon-setting',
-      box_title: '1800+', box_text: 'Etkinlik Deneyimi'
+      box_title: '500+', box_text: 'Etkinlik Deneyimi'
     },
   ]
 }

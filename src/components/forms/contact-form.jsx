@@ -14,7 +14,7 @@ const contactSchema = Yup.object().shape({
 
 const ContactForm = () => {
   const { handleChange, handleSubmit, handleBlur, errors, values, touched } = useFormik({
-    initialValues: { firstname: '', lastname: '', email: '', message: '' },
+    initialValues: { firstname: '', lastname: '', email: '', message: '',phone:'' },
     onSubmit: async (values, { resetForm }) => {
       console.log('Gönderilen değerler:', values); 
       try {
@@ -23,8 +23,10 @@ const ContactForm = () => {
           position: 'top-left'
         });
         resetForm();
+        
       } catch (error) {
         toast.error('Mesaj gönderilirken bir hata oluştu.');
+        console.log(error);
       }
     },
     validationSchema: contactSchema
@@ -67,6 +69,18 @@ const ContactForm = () => {
           required
         />
         {touched.email && <ErrorMsg error={errors.email} />}
+      </div>
+      <div className='mb-30'>
+        <input
+          value={values.phone}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          name="phone"
+          
+          placeholder="Telefon Numaranızı Giriniz"
+          required
+       />
+        {touched.phone && <ErrorMsg error={errors.phone} />}
       </div>
       <div className='mb-30'>
         <textarea
