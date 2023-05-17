@@ -8,7 +8,7 @@ const contents = {
   video_id:'',
  right_text_1:"Düğün, davet, balo salonu işletmeleri için ileri  teknolojiyle sınırları zorlayan otomasyon işletmesi olarak, salonlarına özel olarak tasarladığımız kameralı canlı yayın izleme ve etkinlik rezervasyon otomasyon sistemi yazılımıyla işletmenize farklı bir deneyim sunuyuz.  Gelin ve damadın özel anlarını paylaşmanın, uzaktaki sevdiklerini bile etkinliğe dahil etmenin heyecan verici dünyasına davet ediyoruz. Teknolojiyi en etkili şekilde kullanarak, düğün, davet, sünnet gibi özel etkinliklerinizi bir adım öteye taşıyoruz. Özel Yazılımımız sayesinde düğün salonunuza konumlandırdığımız kameraların canlı yayınını etkinlik tarihlerinde gerçek zamanlı olarak etkinlik sonrası 7 güne kadar banttan izleterek müşterilerinizin uzakta olan aileleri, sevdikleri  ve arkadaşlarıyla bu özel anları paylaşmalarını sağlıyoruz. Müşteri memnuniyetini en üst düzeyde tutmak ve düğünlerinizi unutulmaz kılmak için sürekli olarak kendimizi geliştiriyoruz. Teknolojik trendleri takip ediyor, kullanıcı geri bildirimlerine önem veriyor ve her geçen gün yazılımımızı daha da güçlendiriyoruz. Detaylı bilgi ve demo talepleriniz için bizimle iletişime geçiniz.",
   client_icon:'/assets/img/about/testi-7.png',
-  client_name:'Wiktor Schmidt',
+  client_name:'Berkan Başaran',
   client_title:'Executive Chairman (orix)',
   desc:"Wow. What a great experience with this copywriter. collax is a very talented digital agnecy. yesterday.",
   about_img:'/assets/img/breadcrum/ab-1.2.jpg',
