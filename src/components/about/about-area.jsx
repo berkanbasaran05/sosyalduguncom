@@ -5,7 +5,7 @@ import VideoModal from '../common/modals/modal-video';
 const contents = {
   title:'SosyalDugun düğünün sosyal hali.',
   video_title:'Demo Videoyu Görmek İçin Tıklayınız.',
-  video_id:'8D6b3McyhhU',
+  video_id:'',
   right_text_1:"Düğünlerde İleri Teknolojiyle Sınırları Zorlayan Deneyimler olarak, SosyalDugun düğün salonlarına özel olarak tasarladığımız kameralı canlı yayın izleme ve otomasyon sistemi yazılımıyla unutulmaz düğün deneyimleri sunmak için buradayız. Sizi gelin ve damadın özel anlarını paylaşmanın, uzaktaki sevdiklerinizi bile etkinliğe dahil etmenin ve her detayı mükemmelleştirmenin heyecan verici dünyasına davet ediyoruz.Teknolojiyi en etkili şekilde kullanarak, düğünlerinizi bir adım öteye taşıyoruz. Yazılımımız sayesinde düğün salonunuzdaki kameraların canlı yayınını gerçek zamanlı olarak izleyebilir, aileniz ve arkadaşlarınızla bu özel anları paylaşabilirsiniz. Böylece, coşkuyu ve duyguları paylaşmanın heyecanını uzaktaki sevdiklerinizle birlikte yaşayabilirsiniz.Ayrıca, otomasyon sistemiyle düğün organizasyonunu kolaylaştırıyoruz. Işıklandırmadan müzik sistemine, salon ekipmanlarının tam kontrolünü sizin elinize veriyoruz. Böylece, gelin ve damat anılarının tadını çıkarırken, her ayrıntının kusursuz bir şekilde ilerlemesine odaklanabilirsiniz. Otomatik süreçler ve özelleştirme seçenekleri ile düğününüzü sizin isteklerinize göre şekillendiriyoruz.olarak, müşteri memnuniyetini en üst düzeyde tutmak ve düğünlerinizi unutulmaz kılmak için sürekli olarak kendimizi geliştiriyoruz. Teknolojik trendleri takip ediyor, kullanıcı geri bildirimlerine önem veriyor ve her geçen gün yazılımımızı daha da güçlendiriyoruz.Bizimle çalıştığınızda, en modern ve yenilikçi teknolojilerle donatılmış bir düğün deneyimi sunacağımızın garantisini veriyoruz. Özel gününüzde sınırları zorlayan bir deneyim yaşamak ve anılarınızı sonsuza dek hatırlamak için SosyalDugun ile iletişime geçin. Detaylı bilgi ve demo talepleriniz için web sitemizi ziyaret edin ve hayal ettiğiniz düğün deneyimine adım atın.",
   client_icon:'/assets/img/about/testi-7.png',
   client_name:'Wiktor Schmidt',
@@ -26,11 +26,13 @@ const   AboutArea = () => {
               <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".3s" data-wow-delay=".5s">
                 <div className="ac-about-left">
                   <h3 className="ac-ab-title"><a href="#">{title}</a></h3>
-                  <div className="ac-play-button">
+                  {/**
+                   * <div className="ac-play-button">
                     <button onClick={() => setIsVideoOpen(true)} className="popup-video">
                       <i className="far fa-play"></i></button>
                     <span>{video_title}</span>
                   </div>
+                   */}
                 </div>
               </div>
               <div className="col-xl- col-lg-6 wow tpfadeRight" data-wow-duration=".5s" data-wow-delay=".7s">

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const hero_contents = {
-  title: 'Sosyal Düğün & Düğünün  En Kolay Hali',
+  title: 'Yeni Nesil Canlı Yayın ve Etkinlik Yönetim Sistemi',
   text: <>Sosyal Düğün, tek tıkla mükemmel düğün organizasyonlarınızı hayata geçiriyor. Kapsamlı özellikleri, kamera desteği ve kullanım kolaylığı ile düğünlerinizin unutulmaz anılarına ortak olmanızı sağlıyor. Düğün stresinden kurtulup, unutulmaz bir düğüne imza atmak için Sosyal Düğün&#39;ü keşfedin.</>,
   btn_text: 'DahaFazlaBilgiEdinin',
   btn_text_2: 'BizimleÇalışın',
@@ -10,7 +10,7 @@ const hero_contents = {
     { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
     { id: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
     { id: 2, icon: 'fab fa-twitter social-icon-2', title: 'Twitter',link: 'http://twitter.com' },
-    { id: 4, icon: 'fab fa-behance social-icon-4', title: 'Behance',link: 'https://www.behance.net/' },
+
   ],
   hero_img: '/assets/img/hero/sosyal_about.png',
 }
