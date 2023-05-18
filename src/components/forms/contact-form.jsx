@@ -76,7 +76,8 @@ const ContactForm = () => {
           onChange={handleChange}
           onBlur={handleBlur}
           name="phone"
-          
+          type='tel'
+          pattern="[0-9]*"
           placeholder="Telefon Numaranızı Giriniz"
           required
        />

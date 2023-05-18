@@ -14,7 +14,7 @@ const hero_contents = {
     { id: 2, icon: 'fab fa-twitter social-icon-2', title: 'Twitter',link: 'http://twitter.com' },
 
   ],
-  hero_img: '/assets/img/hero/sosyal_about.png',
+  hero_img: '/assets/img/hero/sosyalhero.png',
 }
 
 const { title, text, btn_text, btn_text_2, social_links, hero_img } = hero_contents;
